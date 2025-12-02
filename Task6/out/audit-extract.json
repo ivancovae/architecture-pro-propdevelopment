@@ -1,0 +1,134 @@
+{
+  "events": [
+    {
+      "user": "system:apiserver",
+      "verb": "list",
+      "ns": null,
+      "resource": "secrets",
+      "name": null,
+      "uri": "/api/v1/secrets?limit=500&resourceVersion=0",
+      "timestamp": "2025-12-02T11:27:00.756312+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "system:apiserver",
+      "verb": "list",
+      "ns": null,
+      "resource": "secrets",
+      "name": null,
+      "uri": "/api/v1/secrets?limit=500&resourceVersion=0",
+      "timestamp": "2025-12-02T11:27:00.756312+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "kubernetes-admin",
+      "verb": "get",
+      "ns": "kube-system",
+      "resource": "secrets",
+      "name": "bootstrap-token-zhg390",
+      "uri": "/api/v1/namespaces/kube-system/secrets/bootstrap-token-zhg390?timeout=10s",
+      "timestamp": "2025-12-02T11:27:02.293294+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "kubernetes-admin",
+      "verb": "get",
+      "ns": "kube-system",
+      "resource": "secrets",
+      "name": "bootstrap-token-zhg390",
+      "uri": "/api/v1/namespaces/kube-system/secrets/bootstrap-token-zhg390?timeout=10s",
+      "timestamp": "2025-12-02T11:27:02.293294+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "system:serviceaccount:kube-system:daemon-set-controller",
+      "verb": "create",
+      "ns": "kube-system",
+      "resource": "pods",
+      "name": null,
+      "uri": "/api/v1/namespaces/kube-system/pods",
+      "timestamp": "2025-12-02T11:27:08.338847+00:00",
+      "severity": "high",
+      "tags": [
+        "privileged-pod"
+      ]
+    },
+    {
+      "user": "minikube-user",
+      "verb": "list",
+      "ns": "kube-system",
+      "resource": "secrets",
+      "name": null,
+      "uri": "/api/v1/namespaces/kube-system/secrets?limit=500",
+      "timestamp": "2025-12-02T11:27:36.451950+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "minikube-user",
+      "verb": "list",
+      "ns": "kube-system",
+      "resource": "secrets",
+      "name": null,
+      "uri": "/api/v1/namespaces/kube-system/secrets?limit=500",
+      "timestamp": "2025-12-02T11:27:36.451950+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "minikube-user",
+      "verb": "list",
+      "ns": "kube-system",
+      "resource": "secrets",
+      "name": null,
+      "uri": "/api/v1/namespaces/kube-system/secrets?limit=500",
+      "timestamp": "2025-12-02T11:27:36.930794+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "minikube-user",
+      "verb": "list",
+      "ns": "kube-system",
+      "resource": "secrets",
+      "name": null,
+      "uri": "/api/v1/namespaces/kube-system/secrets?limit=500",
+      "timestamp": "2025-12-02T11:27:36.930794+00:00",
+      "severity": "medium",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "user": "minikube-user",
+      "verb": "create",
+      "ns": "secure-ops",
+      "resource": "pods",
+      "name": "privileged-pod",
+      "uri": "/api/v1/namespaces/secure-ops/pods?fieldManager=kubectl-client-side-apply&fieldValidation=Strict",
+      "timestamp": "2025-12-02T11:27:37.247070+00:00",
+      "severity": "high",
+      "tags": [
+        "privileged-pod"
+      ]
+    }
+  ]
+}
