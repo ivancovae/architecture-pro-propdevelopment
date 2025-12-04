@@ -52,7 +52,7 @@ def detect_priv_pod(ev):
     return dig(spec, "securityContext.privileged") is True
 
 def detect_exec_other(ev, home):
-    if dig(ev, "verb") not in {"create", "patch"}:
+    if dig(ev, "verb") not in {"create", "patch", "get"}:
         return False
     uri = dig(ev, "requestURI", "")
     ns = dig(ev, "objectRef.namespace")

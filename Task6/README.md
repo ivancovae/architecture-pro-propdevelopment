@@ -91,3 +91,9 @@ sh .\save_audit_log.sh
 ```shell
 python analyze_audit_log.py --log logs\audit_kubectl.log --out out
 ```
+
+Скрипты для парсинга событий (вариант через bash):
+
+Вариант 1 (медленно): show_events_script.sh
+
+Вариант 2 (быстрее): extract_fast_audit.sh
